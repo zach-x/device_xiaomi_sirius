@@ -11,10 +11,6 @@ BOARD_VENDOR := xiaomi
 
 DEVICE_PATH := device/xiaomi/sirius
 
-# Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := sdm710
-TARGET_NO_BOOTLOADER := true
-
 # Kernel
 TARGET_KERNEL_CONFIG := sirius_defconfig
 
