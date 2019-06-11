@@ -6,11 +6,11 @@
 
 $(call inherit-product, device/xiaomi/sirius/device.mk)
 
-# Inherit some common Bootleggers stuff.
-$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+# Inherit some common Havoc stuff.
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := bootleg_sirius
+PRODUCT_NAME := havoc_sirius
 PRODUCT_DEVICE := sirius
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 8 SE
@@ -21,7 +21,11 @@ BUILD_FINGERPRINT := "Xiaomi/sirius/sirius:9/PKQ1.181121.001/9.3.28:user/release
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="sirius-user 9 PKQ1.181121.001 9.3.28 release-keys" \
     PRODUCT_NAME="sirius"
-    DEVICE_MAINTAINERS="Zachx 家"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# Official
+export export HAVOC_BUILD_TYPE=Official
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer=Zachx
