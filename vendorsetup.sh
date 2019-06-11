@@ -1,2 +1,2 @@
-add_lunch_combo lineage_sirius-userdebug
+add_lunch_combo bootleg_sirius-userdebug
 
