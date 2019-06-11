@@ -20,7 +20,7 @@ BUILD_FINGERPRINT := "Xiaomi/sirius/sirius:9/PKQ1.181121.001/9.3.28:user/release
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="sirius-user 9 PKQ1.181121.001 9.3.28 release-keys" \
-    PRODUCT_NAME="sirius"
+    PRODUCT_NAME="sirius" \
     DEVICE_MAINTAINERS="Zachx 家"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
