@@ -639,12 +639,10 @@
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">4</integer>
+    <integer name="config_screenBrightnessDim">3</integer>
 
-    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
-         May be less than the minimum allowed brightness setting
-         that can be set by the user. -->
-    <integer name="config_screenBrightnessDoze">1</integer>
+    <!-- Auto-brightness during doze -->
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
 
     <!-- Default screen brightness setting.
          Must be in the range specified by minimum and maximum. -->
@@ -652,7 +650,7 @@
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMinimum">3</integer>
+    <integer name="config_screenBrightnessSettingMinimum">2</integer>
 
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
@@ -702,5 +700,23 @@
         <item>XTRA_SERVER_2=http://gllto1.glpals.com/7day/v5/latest/lto2.dat</item>
         <item>XTRA_SERVER_3=http://gllto2.glpals.com/7day/v5/latest/lto2.dat</item>
     </string-array>
+
+    <!-- Enable dual LTE capability support-->
+    <bool name="config_dual_LTE_capability">true</bool>
+
+    <!-- Vibration -->
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>7</item>
+        <item>10</item>
+    </integer-array>
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+    </integer-array>
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>10</item>
+    </integer-array>
 
 </resources>
