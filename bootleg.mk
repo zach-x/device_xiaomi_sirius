@@ -23,7 +23,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="sirius" \
     DEVICE_MAINTAINERS="Zachx 家"
 
-export export BOOTLEGGERS_NOTCHED=true
+export BOOTLEGGERS_NOTCHED=true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
