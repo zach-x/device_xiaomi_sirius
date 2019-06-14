@@ -1,26 +1,18 @@
 [
   {
-    "remote": "github",
-    "repository": "zach-x/device_xiaomi_sdm710-common",
-    "target_path": "device/xiaomi/sdm710-common",
-    "branch": "bl"
+    "repository": "device_xiaomi_sdm710-common",
+    "target_path": "device/xiaomi/sdm710-common"
   },
   {
-    "remote": "github",
-    "repository": "zach-x/android_vendor_xiaomi_sdm710",
-    "target_path": "vendor/xiaomi",
-    "branch": "bl"
+    "repository": "android_vendor_xiaomi_sdm710",
+    "target_path": "vendor/xiaomi"
   },
   {
-    "remote":      "github",
-    "repository":  "guoxiao1213/android_kernel_xiaomi_sdm710",
-    "target_path": "kernel/xiaomi/sdm710",
-    "branch":      "lineage-16.0"
+    "repository":  "android_kernel_xiaomi_sdm710",
+    "target_path": "kernel/xiaomi/sdm710"
   },
   {
-    "remote": "github",
-    "repository": "LineageOS/android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings",
-    "branch": "lineage-16.0"
+    "repository": "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
   }
 ]
