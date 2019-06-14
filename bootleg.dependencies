@@ -7,9 +7,9 @@
   },
   {
     "remote": "github",
-    "repository": "guoxiao1213/android_vendor_xiaomi_sdm710",
+    "repository": "zach-x/android_vendor_xiaomi_sdm710",
     "target_path": "vendor/xiaomi",
-    "branch": "lineage-16.0"
+    "branch": "bl"
   },
   {
     "remote":      "github",
