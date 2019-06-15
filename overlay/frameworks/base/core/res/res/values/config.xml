@@ -722,4 +722,16 @@
     <!-- Whether or not we should show vendor mismatch message -->
     <bool name="config_show_vendor_mismatch_message">false</bool>
 
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutout">true</bool>
+
+    <!-- Whether device has oled display -->
+    <bool name="config_hasOledDisplay">true</bool>
+
+    <!-- Whether to show battery percentage inside icon -->
+    <bool name="config_battery_percentage_show_inside_icon">true</bool>
+
+    <!-- Whether auto face unlock is enabled by default -->
+    <bool name="config_autoFaceUnlockEnabledByDefault">true</bool>
+
 </resources>
