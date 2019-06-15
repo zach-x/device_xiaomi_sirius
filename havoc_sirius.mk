@@ -24,5 +24,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# Official
+export export HAVOC_BUILD_TYPE=Official
+
+
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.havoc.maintainer="Zachx"
+    ro.havoc.maintainer=Zachx
