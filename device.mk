@@ -12,6 +12,9 @@ $(call inherit-product, device/xiaomi/sdm710-common/sdm710.mk)
 # Vendor
 $(call inherit-product-if-exists, vendor/xiaomi/sirius/sirius-vendor.mk)
 
+# Vendor properties
+-include $(LOCAL_PATH)/vendor_prop.mk
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
