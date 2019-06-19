@@ -14,7 +14,7 @@ Display | 1080x2244 pixels, 5.88 AMOLED
 Rear Camera  | 12MP+5MP, AI Dual Camera
 Front Camera | 20 MP
 
-![Xiaomi MI 8 SE](https://i1.mifile.cn/f/i/18/8i/gallery_list1_2.jpg "Xiaomi MI 8 SE")
+![Xiaomi MI 8 SE](https://ecs7.tokopedia.net/img/cache/700/product-1/2018/6/7/5562993/5562993_c9021fed-5070-4ff9-84a0-26f2aff7c524_500_500.jpg "Xiaomi MI 8 SE")
 
 ## Copyright
 
