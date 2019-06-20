@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, device/xiaomi/sdm710-common/sdm710.mk)
 
 # Vendor
-$(call inherit-product, vendor/xiaomi/sirius/sirius-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/sirius/sirius-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
