@@ -768,6 +768,23 @@
     <!-- Whether device has oled display -->
     <bool name="config_hasOledDisplay">true</bool>
 
+    <!-- Display mode remapping table.
+         If the mode names returned by the backend do not match
+         the predefined and translated strings in the Settings
+         app, they can be remapped here. The format is
+         "oldname:newname", one per entry. -->
+    <string-array name="config_displayModeMappings" translatable="false">
+      <item>d_38WPC_native:standard</item>
+      <item>hal_dci_p3:dci_p3</item>
+      <item>a_srgb:srgb</item>
+    </string-array>
+
+    <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
+
+    <!-- Should we filter any display modes which are unampped? -->
+    <bool name="config_filterDisplayModes">true</bool>
+
     <!-- Whether to show battery percentage inside icon -->
     <bool name="config_battery_percentage_show_inside_icon">true</bool>
 
