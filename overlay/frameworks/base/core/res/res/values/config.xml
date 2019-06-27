@@ -679,8 +679,10 @@
          that can be set by the user. -->
     <integer name="config_screenBrightnessDim">3</integer>
 
-    <!-- Auto-brightness during doze -->
-    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
+    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
+         May be less than the minimum allowed brightness setting
+         that can be set by the user. -->
+    <integer name="config_screenBrightnessDoze">4</integer>
 
     <!-- Default screen brightness setting.
          Must be in the range specified by minimum and maximum. -->
