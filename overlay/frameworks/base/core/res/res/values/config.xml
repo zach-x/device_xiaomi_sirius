@@ -684,11 +684,6 @@
          that can be set by the user. -->
     <integer name="config_screenBrightnessDoze">4</integer>
 
-    <!-- Default Screen brightness used always on screen doze.
-         May be less than the minimum allowed brightness setting
-         that can be set by the user. -->
-    <integer name="config_screenBrightnessDozeAlwaysOnDefault">4</integer>
-
     <!-- Default screen brightness setting.
          Must be in the range specified by minimum and maximum. -->
     <integer name="config_screenBrightnessSettingDefault">98</integer>
@@ -783,20 +778,6 @@
       <item>hal_dci_p3:dci_p3</item>
       <item>a_srgb:srgb</item>
     </string-array>
-
-    <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
-         one single bounding rect per device edge to the app via
-         {@link DisplayCutout#getBoundingRect}. Note that this path should try to match the visual
-         appearance of the cutout as much as possible, and may be smaller than
-         config_mainBuiltInDisplayCutout
-         -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
-        M -85,0
-        V 79
-        H 85
-        V 0
-        Z
-    </string>
 
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
