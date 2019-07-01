@@ -23,7 +23,7 @@
     <!-- Height of the status bar in landscape -->
     <dimen name="status_bar_height_landscape">25dp</dimen>
     <!-- Height of notification icons in the status bar -->
-    <dimen name="status_bar_icon_size">18dip</dimen>
+    <dimen name="status_bar_icon_size">15dip</dimen>
     <dimen name="rounded_corner_radius">48px</dimen>
     <!-- Height of the bottom navigation / system bar. -->
     <dimen name="navigation_bar_height">34dp</dimen>
