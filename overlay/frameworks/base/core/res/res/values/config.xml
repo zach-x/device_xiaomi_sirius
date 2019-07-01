@@ -788,5 +788,7 @@
     <string name="config_SmartChargingSupspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
 
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">true</bool>
 
 </resources>
